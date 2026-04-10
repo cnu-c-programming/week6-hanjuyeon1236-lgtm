@@ -4,7 +4,7 @@ int main() {
   int target_array[2][5] = {{1, 2, 3, 4, 5}, {6, 7, 8, 9, 10}};
   int (*array_pointer)[5] = target_array;
   int a = 10, b = 20, c = 30, d = 40, e = 50;
-  int * [pinter_array[5] = {&a, &b, &c, &d, &e};
+  int * pointer_array[5] = {&a, &b, &c, &d, &e};
 
   printf("sizeof(array_pointer): &zu\n", sizeof(array_pointer));
   printf("sizeof(pointer_array): &zu\n", sizeof(pointer_array));
