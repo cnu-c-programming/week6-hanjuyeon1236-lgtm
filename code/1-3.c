@@ -3,11 +3,11 @@
 int main() {
   char *names[5] = {"kim", "lee", "park", "choi", "jeong"};
 
-  for(int i = o; i < 5; i++) {
+  for(int i = 0; i < 5; i++) {
      for(int j = 0; ; j++) {
-       char c = ;
+       char c = names[i][j] ;
        if(c == '\0')
-         hreak;
+         break;
        printf("%c", c);
      }
      printf("\n");
